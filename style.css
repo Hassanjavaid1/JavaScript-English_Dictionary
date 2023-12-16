@@ -1,0 +1,96 @@
+body{
+    background-color: #ae59d9}
+#container_content{
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    padding: 3rem;
+    margin: auto;
+   
+    box-shadow: 0rem 0rem 7px 0px black;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+.container{
+    margin-top: 6rem;
+}
+#input{
+    padding: 1rem;
+    border: navajowhite;
+    border-bottom: 0.2rem solid #da67ff;
+    width: 18rem;
+    font-size: 1.2rem;
+}
+#input:focus{
+    outline: none;
+}
+
+#button{
+    font-size: 1rem;
+    padding: 0.9rem;
+    cursor: pointer;
+    background-color: #AE59D9;
+    border: 0rem;
+    color: white;
+    border-radius: 0.3rem;
+}
+.word_voice{
+    display: flex;
+    align-items: center;
+    gap: 13rem;
+    margin-top: 4rem;
+}
+.word{
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.partOfSpeech{
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 0.3rem;
+
+}
+.definiation{
+    font-family:sans-serif;
+    text-transform: capitalize;
+    width: 27rem;
+    line-height: 1.9
+}
+.fa-solid{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.synonyms{
+    font-family: sans-serif;
+}
+.antonyms{
+    font-family: sans-serif;
+}
+.more_content{
+    line-height: 1.3;
+    margin-top: 3rem;
+}
+.pronounce{
+    font-weight: 500;
+}
+span{
+    font-weight: 600;
+}
+.example{
+    font-family: sans-serif;
+    width: 27rem;
+    line-height: 1.8rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-shadow: 0px 3px 13px black
+}
