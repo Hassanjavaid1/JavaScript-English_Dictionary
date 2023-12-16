@@ -28,7 +28,7 @@ const fetchData = async () => {
     meanings[0].partOfSpeech == "" ||
     meanings[0].partOfSpeech == null ||
     meanings[0].partOfSpeech == undefined
-  } / <span class="pronounce">${
+  } <span class="pronounce">${
       phonetics[0].text == "" ||
       phonetics[0].text == null ||
       phonetics[0].text == undefined

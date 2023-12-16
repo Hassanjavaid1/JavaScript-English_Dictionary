@@ -66,6 +66,8 @@ body{
 }
 .synonyms{
     font-family: sans-serif;
+    width: 29rem;
+    line-height: 2
 }
 .antonyms{
     font-family: sans-serif;
